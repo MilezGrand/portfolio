@@ -1,0 +1,27 @@
+footer {
+  background-color: #2d2e32;
+  height: 126px;
+}
+
+footer h3 {
+  color: white;
+  font-size: 17px;
+  margin: 0;
+  /* height: 100%; */
+}
+
+#container__footer {
+  height: 126px;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    text-align: center;
+    padding: 0 50px 0 50px;
+  }
+
+  footer h3 {
+    /* height: 100%; */
+  }
+}

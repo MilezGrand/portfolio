@@ -9,7 +9,7 @@ export const Header = ({ headerRef }) => {
           <div className="info">
             <div>
               <h1>Web developer</h1>
-              <p>Привет, я Влад. Программист-разрабочик из Екатеринбурга, Россия 📍</p>
+              <p>Привет, я Влад. Программист-разработчик из Екатеринбурга, Россия 📍</p>
               <span className="info__icons">
                 <a href="https://github.com/MilezGrand">
                   <img src="github.svg" alt="GitHub" width={40} height={40} />

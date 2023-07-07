@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-const Contact = ({contactRef}) => {
+const Contact = ({ contactRef }) => {
   return (
     <section className="contact" ref={contactRef}>
       <div className="container" id="container__contact">
@@ -11,7 +11,7 @@ const Contact = ({contactRef}) => {
           <ul>
             <li>
               <span>
-                <img src="location.png" alt="" width={35} height={30} />
+                <img src="location.svg" alt="" width={35} height={30} />
               </span>
 
               <div>
@@ -21,12 +21,22 @@ const Contact = ({contactRef}) => {
             </li>
             <li>
               <span>
-                <img src="mail.png" alt="" width={35} height={25} />
+                <img src="mail.svg" alt="" width={55} height={45} />
               </span>
 
               <div>
                 <h4>Почта</h4>
                 <p>normsvlad@yandex.ru</p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <img src="telegram.svg" alt="" width={40} height={40} />
+              </span>
+
+              <div>
+                <h4>Telegram</h4>
+                <p>@VladMilezGrand</p>
               </div>
             </li>
           </ul>

@@ -4,7 +4,7 @@ import './style.css';
 const Contact = ({ contactRef }) => {
   return (
     <section className="contact" ref={contactRef}>
-      <div className="container" id="container__contact">
+      <div className="wrapper" id="container__contact">
         <div className="content" id="content_contact">
           <h4>КОНТАКТЫ</h4>
           <h3>Не стесняйся! Напиши мне! 👇</h3>

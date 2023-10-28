@@ -15,24 +15,25 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
     setAbout(aboutRef);
     setProjects(projectsRef);
     setContact(contactRef);
-    // console.log(about)
+
   }, [headerRef, aboutRef, projectsRef, contactRef, about, projects, contact]);
 
   const calculatePosition = (element) => {
-    // aboutRef.current.scrollIntoView();
+
     if (element == null) {
       return
     }
+    
     if (
-      scrollPosition + 400 >= element.current.offsetTop &&
-      scrollPosition + 400 <= element.current.offsetTop + element.current.offsetHeight
+      scrollPosition + 500 >= element.current.offsetTop &&
+      scrollPosition + 500 <= element.current.offsetTop + element.current.offsetHeight
     ) {
       return true;
     }
 
     return false;
   };
-  // console.log(aboutRef)
+
   return (
     <nav className={scrollPosition > 0 ? 'shadow nav' : 'nav'}>
       <ul>

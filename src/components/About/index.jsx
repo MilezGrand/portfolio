@@ -4,7 +4,7 @@ import './style.css';
 const About = ({ aboutRef }) => {
   return (
     <section className="about" ref={aboutRef}>
-      <div className="container" id="container__about">
+      <div className="wrapper" id="container__about">
         <div className="img-side">
           <img src="about.jpg" alt="notebook" width={410} height={350} />
           <img src="text.svg" alt="developer" width={200} height={200} id="text-round" />

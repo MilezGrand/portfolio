@@ -32,7 +32,7 @@
 #menu {
   display: none;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
   .nav {
     height: 20px;
   }
@@ -46,7 +46,6 @@
 
   #menu {
     display: block;
-    
   }
 
   .nav ul {

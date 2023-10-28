@@ -45,14 +45,14 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
   #container__about {
     flex-direction: column;
     margin: 50px 30px 25px 30px;
     gap: 30px;
     height: 100%;
   }
-  
+
   .text-side {
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@
   #text-round {
     display: none;
   }
-  
+
   #work-emoji {
     display: none;
   }

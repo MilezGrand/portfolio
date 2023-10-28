@@ -4,8 +4,8 @@ import './style.css';
 export const Header = ({ headerRef }) => {
   return (
     <section className="header" ref={headerRef}>
-      <div className="container" id="container__header">
-        <div className="content" id="content__header">
+      <div className="wrapper" id="wrapper__header">
+        <div className="header__content" id="content__header">
           <div className="info">
             <div>
               <h1>Web developer</h1>
@@ -13,7 +13,6 @@ export const Header = ({ headerRef }) => {
               <span className="info__icons">
                 <a href="https://github.com/MilezGrand">
                   <img src="github.svg" alt="GitHub" width={40} height={40} />
-                  {/* <img src="github.png" alt="GitHub" width={35} height={35} /> */}
                 </a>
               </span>
             </div>
@@ -23,10 +22,7 @@ export const Header = ({ headerRef }) => {
             <p>Навыки</p>
             <ul>
               <li>
-                <img src="html.svg" alt="" width={35} height={35} />
-              </li>
-              <li>
-                <img src="css.svg" alt="" width={35} height={35} />
+                <img src="nodejs.svg" alt="" width={35} height={35} />
               </li>
               <li>
                 <img src="js.svg" alt="" width={35} height={35} />
@@ -36,6 +32,9 @@ export const Header = ({ headerRef }) => {
               </li>
               <li>
                 <img src="react.svg" alt="" width={35} height={35} />
+              </li>
+              <li>
+                <img src="redux.png" alt="" width={30} height={30} />
               </li>
               <li>
                 <img src="scss.svg" alt="" width={35} height={35} />

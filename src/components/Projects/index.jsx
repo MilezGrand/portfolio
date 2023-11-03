@@ -22,6 +22,7 @@ const Projects = ({ projectsRef }) => {
                   gitHubLink={project.gitHubLink}
                   demoLink={project.demoLink}
                   disabled={project.disabled}
+                  linkText={project.linkText}
                 />
               );
             })}

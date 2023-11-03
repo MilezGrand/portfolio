@@ -1,4 +1,5 @@
 import React from "react";
+import { Tooltip } from "react-tooltip";
 import "./style.css";
 
 const Project = ({
@@ -9,6 +10,7 @@ const Project = ({
   gitHubLink,
   demoLink,
   disabled,
+  linkText,
 }) => {
   return (
     <div className="project-card">
@@ -31,19 +33,22 @@ const Project = ({
             <img src="github.svg" width={35} height={35} alt="github repo" />
           </a>
           {!disabled ? (
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={demoLink}
-            >
+            <a target="_blank" rel="noopener noreferrer" href={demoLink}>
               Демо
               <img src="demo.svg" width={30} height={30} alt="demo" />
             </a>
           ) : (
-            <a className="link-disabled" onClick={(e) => e.preventDefault()}>
-              Демо
-              <img src="demo.svg" width={30} height={30} alt="demo" />
-            </a>
+            <>
+              <a className="link-disabled" onClick={(e) => e.preventDefault()}>
+                Демо
+                <img src="demo.svg" width={30} height={30} alt="demo" />
+              </a>
+              <Tooltip
+                anchorSelect=".link-disabled"
+                place="top"
+                content={linkText}
+              />
+            </>
           )}
         </div>
       </div>

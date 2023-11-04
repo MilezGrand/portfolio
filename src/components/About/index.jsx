@@ -4,25 +4,30 @@ import "./style.css";
 const About = ({ aboutRef }) => {
   return (
     <section className="about" ref={aboutRef}>
-      <div className="wrapper" id="container__about">
-        <div className="img-side">
-          <img src="about.jpg" alt="notebook" width={410} height={350} />
+      <div className="wrapper about__container">
+        <div className="about__img-side">
           <img
-            src="text.svg"
+            src="/portfolio/about.jpg"
+            alt="notebook"
+            width={410}
+            height={350}
+          />
+          <img
+            src="/portfolio/text.svg"
             alt="developer"
             width={200}
             height={200}
             id="text-round"
           />
           <img
-            src="working-emoji.png"
+            src="/portfolio/working-emoji.png"
             alt="work"
             width={60}
             height={60}
             id="work-emoji"
           />
         </div>
-        <div className="text-side">
+        <div className="about__text-side">
           <h4>ОБО МНЕ</h4>
           <h3>Веб-разработчик из Екатеринбурга, Россия 📍</h3>
           <p>

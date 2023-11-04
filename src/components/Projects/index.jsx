@@ -1,16 +1,16 @@
-import React from 'react';
-import './style.css';
-import Project from '../Project';
-import { projects } from '../../helpers/projectsList';
+import React from "react";
+import "./style.css";
+import Project from "../Project";
+import { projects } from "../../helpers/projectsList";
 
 const Projects = ({ projectsRef }) => {
   return (
     <section className="projects" ref={projectsRef}>
-      <div className="wrapper" id="wrapper__projects">
-        <div className="content" id="content__projects">
+      <div className="wrapper projects__container">
+        <div className="projects__content">
           <h4>ПРОЕКТЫ</h4>
           <h3>Каждый проект - это уникальная работа 🧩</h3>
-          <div className="project-list">
+          <div className="projects__content_project-list">
             {projects.map((project, index) => {
               return (
                 <Project

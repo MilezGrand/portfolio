@@ -36,7 +36,7 @@ const projects = [
   {
     title: "Task Manager ✔️",
     img: project04,
-    text: "Обновлённая версия моего старого проекта Todo List.",
+    text: "Обновлённая версия моего старого проекта Todo List. Есть возможность добавления подзадач. Перенос задач с Drag'n'Drop",
     gitHubLink: "https://github.com/MilezGrand/task-manager",
     tags: ["TypeScript", "React", "Redux", "Styled Components", "FSD"],
     demoLink: "https://milezgrand.github.io/task-manager/",

@@ -1,7 +1,7 @@
-import React from 'react';
-import './style.css';
-import { NavLink } from 'react-router-dom';
-import { useScrollPosition } from '../../hooks/useScrollPosition';
+import React from "react";
+import "./style.css";
+import { NavLink } from "react-router-dom";
+import { useScrollPosition } from "../../hooks/useScrollPosition";
 
 const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
   const scrollPosition = useScrollPosition();
@@ -15,18 +15,17 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
     setAbout(aboutRef);
     setProjects(projectsRef);
     setContact(contactRef);
-
   }, [headerRef, aboutRef, projectsRef, contactRef, about, projects, contact]);
 
   const calculatePosition = (element) => {
-
     if (element == null) {
-      return
+      return;
     }
-    
+
     if (
       scrollPosition + 500 >= element.current.offsetTop &&
-      scrollPosition + 500 <= element.current.offsetTop + element.current.offsetHeight
+      scrollPosition + 500 <=
+        element.current.offsetTop + element.current.offsetHeight
     ) {
       return true;
     }
@@ -35,11 +34,11 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
   };
 
   return (
-    <nav className={scrollPosition > 0 ? 'shadow nav' : 'nav'}>
+    <nav className={scrollPosition > 0 ? "shadow nav" : "nav"}>
       <ul>
         <li>
           <NavLink
-            className={calculatePosition(header) ? 'activeLink' : ''}
+            className={calculatePosition(header) ? "activeLink" : ""}
             onClick={() => window.scrollTo(0, 0)}
           >
             Главная
@@ -47,7 +46,7 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
         </li>
         <li>
           <NavLink
-            className={calculatePosition(about) ? 'activeLink' : ''}
+            className={calculatePosition(about) ? "activeLink" : ""}
             onClick={() => about.current.scrollIntoView()}
           >
             Обо мне
@@ -55,7 +54,7 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
         </li>
         <li>
           <NavLink
-            className={calculatePosition(projects) ? 'activeLink' : ''}
+            className={calculatePosition(projects) ? "activeLink" : ""}
             onClick={() => projects.current.scrollIntoView()}
           >
             Проекты
@@ -63,7 +62,7 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
         </li>
         <li>
           <NavLink
-            className={calculatePosition(contact) ? 'activeLink' : ''}
+            className={calculatePosition(contact) ? "activeLink" : ""}
             onClick={() => contact.current.scrollIntoView()}
           >
             Контакты
@@ -76,7 +75,7 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
           id="menu"
           alt="menu"
           onClick={() => {
-            menuRef.current.classList.remove('menu-closed');
+            menuRef.current.classList.remove("menu-closed");
           }}
         />
       </ul>

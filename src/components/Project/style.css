@@ -26,7 +26,7 @@
   align-items: flex-end;
 }
 
-.link-disabled {
+.buttons__link-disabled {
   filter: invert(52%) sepia(0%) saturate(6545%) hue-rotate(330deg)
     brightness(85%) contrast(87%);
 }

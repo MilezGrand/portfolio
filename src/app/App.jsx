@@ -7,6 +7,7 @@ import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Menu from '../components/Menu';
+import './index.css';
 
 function App() {
   const headerRef = React.useRef(null);
@@ -15,7 +16,7 @@ function App() {
   const contactRef = React.useRef(null);
   const menuRef = React.useRef(null);
   return (
-    <div className="App">
+    <div >
       <Router>
         <Menu
           menuRef={menuRef}

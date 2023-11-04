@@ -1,5 +1,5 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 const Contact = ({ contactRef }) => {
   return (
@@ -11,7 +11,12 @@ const Contact = ({ contactRef }) => {
           <ul>
             <li>
               <span>
-                <img src="location.svg" alt="" width={35} height={30} />
+                <img
+                  src="/portfolio/location.svg"
+                  alt=""
+                  width={35}
+                  height={30}
+                />
               </span>
 
               <div>
@@ -21,7 +26,7 @@ const Contact = ({ contactRef }) => {
             </li>
             <li>
               <span>
-                <img src="mail.svg" alt="" width={55} height={45} />
+                <img src="/portfolio/mail.svg" alt="" width={55} height={45} />
               </span>
 
               <div>
@@ -31,7 +36,12 @@ const Contact = ({ contactRef }) => {
             </li>
             <li>
               <span>
-                <img src="telegram.svg" alt="" width={40} height={40} />
+                <img
+                  src="/portfolio/telegram.svg"
+                  alt=""
+                  width={40}
+                  height={40}
+                />
               </span>
 
               <div>

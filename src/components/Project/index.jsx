@@ -30,21 +30,21 @@ const Project = ({
         <div className="buttons">
           <a target="_blank" rel="noopener noreferrer" href={gitHubLink}>
             Исходный код
-            <img src="github.svg" width={35} height={35} alt="github repo" />
+            <img src="/portfolio/github.svg" width={35} height={35} alt="github repo" />
           </a>
           {!disabled ? (
             <a target="_blank" rel="noopener noreferrer" href={demoLink}>
               Демо
-              <img src="demo.svg" width={30} height={30} alt="demo" />
+              <img src="/portfolio/demo.svg" width={30} height={30} alt="demo" />
             </a>
           ) : (
             <>
-              <a className="link-disabled" onClick={(e) => e.preventDefault()}>
+              <a className="buttons__link-disabled" onClick={(e) => e.preventDefault()}>
                 Демо
-                <img src="demo.svg" width={30} height={30} alt="demo" />
+                <img src="/portfolio/demo.svg" width={30} height={30} alt="demo" />
               </a>
               <Tooltip
-                anchorSelect=".link-disabled"
+                anchorSelect=".buttons__link-disabled"
                 place="top"
                 content={linkText}
               />

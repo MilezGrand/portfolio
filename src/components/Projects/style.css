@@ -3,19 +3,16 @@
   padding-bottom: 50px;
 }
 
-#wrapper__projects {
-  /* height: 100%; */
-}
 
-#content__projects {
+.projects__content {
   padding-top: 100px;
 }
 
-#content__projects h3 {
+.projects__content h3 {
   padding-bottom: 25px;
 }
 
-.project-list {
+.projects__content_project-list {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -31,14 +28,14 @@
     padding: 0 15px 50px 15px;
   }
 
-  .project-list {
+  .projects__content_project-list {
     width: 100%;
     display: flex;
 
     align-items: center;
   }
 
-  #content__projects {
+  .projects__content {
     width: 100%;
     align-items: center;
     text-align: center;

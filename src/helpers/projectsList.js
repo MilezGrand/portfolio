@@ -4,6 +4,7 @@ import project03 from "./../img/03.png";
 import project04 from "./../img/04.png";
 import project05 from "./../img/05.png";
 import project06 from "./../img/06.png";
+import project07 from "./../img/07.png";
 
 const projects = [
   {
@@ -24,6 +25,16 @@ const projects = [
     linkText: "",
   },
   {
+    title: "Task Manager ✔️",
+    img: project04,
+    text: "Обновлённая версия моего старого проекта Todo List. Есть возможность добавления подзадач. Перенос задач с Drag'n'Drop",
+    gitHubLink: "https://github.com/MilezGrand/task-manager",
+    tags: ["TypeScript", "React", "Redux", "Styled Components", "FSD"],
+    demoLink: "https://milezgrand.github.io/task-manager/",
+    disabled: false,
+    linkText: "",
+  },
+  {
     title: "Сайт школы 🔔",
     img: project06,
     text: "Экспресс работа. Заказчик пожелал быстрый MVP сайт на React для удобства его дальнейшего масштабирования",
@@ -34,12 +45,12 @@ const projects = [
     linkText: "",
   },
   {
-    title: "Task Manager ✔️",
-    img: project04,
-    text: "Обновлённая версия моего старого проекта Todo List. Есть возможность добавления подзадач. Перенос задач с Drag'n'Drop",
-    gitHubLink: "https://github.com/MilezGrand/task-manager",
-    tags: ["TypeScript", "React", "Redux", "Styled Components", "FSD"],
-    demoLink: "https://milezgrand.github.io/task-manager/",
+    title: "Лэндинг приложения для кемпинга 🏕️",
+    img: project07,
+    text: "Красивый лэндинг сделанный с Next и Tailwind",
+    gitHubLink: "https://github.com/MilezGrand/travel-app-landing",
+    tags: ["Next","React", "Tailwind"],
+    demoLink: "https://travel-app-landing-one.vercel.app/",
     disabled: false,
     linkText: "",
   },

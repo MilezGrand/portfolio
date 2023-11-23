@@ -43,9 +43,13 @@ export const Header = ({ headerRef }) => {
                 <img src="/portfolio/ts.svg" alt="" width={35} height={35} />
                 <Tooltip anchorSelect="#TypeScript" place="top" content="TypeScript" />
               </li>
+              <li id="Next"> 
+                <img src="/portfolio/next.svg" alt="" width={35} height={35} />
+                <Tooltip anchorSelect="#Next" place="top" content="Next" />
+              </li>
               <li id="ReactJS"> 
                 <img src="/portfolio/react.svg" alt="" width={35} height={35} />
-                <Tooltip anchorSelect="#ReactJS" place="top" content="ReactJS" />
+                <Tooltip anchorSelect="#ReactJS" place="top" content="React" />
               </li>
               <li id="Redux-Toolkit">
                 <img src="/portfolio/redux.png" alt="" width={30} height={30} />
@@ -54,6 +58,10 @@ export const Header = ({ headerRef }) => {
               <li id="SCSS">
                 <img src="/portfolio/scss.svg" alt="" width={35} height={35} />
                 <Tooltip anchorSelect="#SCSS" place="top" content="SCSS" />
+              </li>
+              <li id="Tailwind"> 
+                <img src="/portfolio/tailwindcss.svg" alt="" width={35} height={35} />
+                <Tooltip anchorSelect="#Tailwind" place="top" content="Tailwind" />
               </li>
             </ul>
           </div>

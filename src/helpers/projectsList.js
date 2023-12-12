@@ -5,17 +5,18 @@ import project04 from "./../img/04.png";
 import project05 from "./../img/05.png";
 import project06 from "./../img/06.png";
 import project07 from "./../img/07.png";
+import project08 from "./../img/08.png";
 
 const projects = [
   {
     title: "Коллективный блог 📝",
     img: project01,
-    text: "Крупный fullstack проект. Вдохновлённый Habr и DTF",
+    text: "Крупный fullstack проект с собственным сервером. Вдохновлялся Habr и DTF",
     gitHubLink: "https://github.com/MilezGrand/ts-blog",
     tags: [
       "TypeScript",
       "React",
-      "Redux",
+      "Redux RTK",
       "PostgreSQL",
       "MUI",
       "FSD",
@@ -25,11 +26,25 @@ const projects = [
     linkText: "",
   },
   {
+    title: "Аниме портал 💢",
+    img: project08,
+    text: "Сайт с подборками аниме и манги. Подробная иформация, поиск по жанрам, подборка похожего контента",
+    gitHubLink: "https://github.com/MilezGrand/anime-discovery",
+    tags: [
+      "TypeScript",
+      "Next",
+      "Tailwind",
+    ],
+    demoLink: "https://anime-discovery-beryl.vercel.app/",
+    disabled: false,
+    linkText: "",
+  },
+  {
     title: "Task Manager ✔️",
     img: project04,
     text: "Обновлённая версия моего старого проекта Todo List. Есть возможность добавления подзадач. Перенос задач с Drag'n'Drop",
     gitHubLink: "https://github.com/MilezGrand/task-manager",
-    tags: ["TypeScript", "React", "Redux", "Styled Components", "FSD"],
+    tags: ["TypeScript", "React", "Redux RTK", "Styled Components", "FSD"],
     demoLink: "https://milezgrand.github.io/task-manager/",
     disabled: false,
     linkText: "",
@@ -47,9 +62,9 @@ const projects = [
   {
     title: "Лэндинг приложения для кемпинга 🏕️",
     img: project07,
-    text: "Красивый лэндинг сделанный с Next и Tailwind",
+    text: "Красивый лэндинг сделанный для закрепления навыков Tailwind",
     gitHubLink: "https://github.com/MilezGrand/travel-app-landing",
-    tags: ["Next","React", "Tailwind"],
+    tags: ["TypeScript","Next", "Tailwind"],
     demoLink: "https://travel-app-landing-one.vercel.app/",
     disabled: false,
     linkText: "",

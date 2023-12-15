@@ -3,7 +3,7 @@ import "./style.css";
 
 const Contact = ({ contactRef }) => {
   return (
-    <section className="contact" ref={contactRef}>
+    <section className="contact reveal" ref={contactRef} id="contacts">
       <div className="wrapper" id="container__contact">
         <div className="content" id="content_contact">
           <h4>КОНТАКТЫ</h4>

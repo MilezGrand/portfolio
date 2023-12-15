@@ -5,7 +5,7 @@ import { projects } from "../../helpers/projectsList";
 
 const Projects = ({ projectsRef }) => {
   return (
-    <section className="projects" ref={projectsRef}>
+    <section className="projects reveal" ref={projectsRef} id="projects">
       <div className="wrapper projects__container">
         <div className="projects__content">
           <h4>ПРОЕКТЫ</h4>

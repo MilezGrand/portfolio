@@ -13,7 +13,7 @@ const Project = ({
   linkText,
 }) => {
   return (
-    <div className="project-card">
+    <div className="project-card reveal">
       <img src={img} alt="project" height={310} id="project-card__image" />
       <div className="content" id="content__project">
         <h3>{title}</h3>

@@ -4,8 +4,8 @@ import "./style.css";
 
 export const Header = ({ headerRef }) => {
   return (
-    <section className="header" ref={headerRef}>
-      <div className="wrapper header__container">
+    <section className="header " ref={headerRef} id="home">
+      <div className="wrapper header__container show">
         <div className="header__content">
           <div className="header__content__info">
             <div>

@@ -5,12 +5,16 @@
   padding: 20px;
   gap: 10px;
   width: 750;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  transition: ease-in-out 0.3s;
 }
 
+.project-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  transition: ease-in-out 0.3s;
+}
 .project-card img {
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 .project-card a img {
@@ -82,8 +86,9 @@
 }
 
 .badge {
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #147efb;
+  color: white;
+  box-shadow: 0 0 10px rgb(20 126 251 / 40%);
   padding: 5px 13px;
   font-size: 16px;
   font-weight: 700;
@@ -97,6 +102,7 @@
     width: 100%;
     padding: 0 0 15px 0;
     margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
   }
 
   #content__project p {

@@ -2,14 +2,14 @@
   position: fixed !important;
   width: 100%;
   padding: 30px 0;
-
+  transition: ease-in-out 0.5s;
   background-color: white !important;
   z-index: 1;
 }
 
 .shadow {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
-  transition: box-shadow 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: ease-in-out 0.3s;
 }
 
 .nav ul {
@@ -27,6 +27,7 @@
 
 .activeLink {
   color: #147efb;
+  transition: ease 0.2s;
 }
 
 #menu {

@@ -33,6 +33,7 @@ const Nav = ({ headerRef, aboutRef, projectsRef, contactRef, menuRef }) => {
     return false;
   };
 
+
   return (
     <nav className={scrollPosition > 0 ? "shadow nav" : "nav"}>
       <ul>

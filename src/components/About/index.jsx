@@ -3,7 +3,7 @@ import "./style.css";
 
 const About = ({ aboutRef }) => {
   return (
-    <section className="about" ref={aboutRef}>
+    <section className="about reveal" ref={aboutRef} id='about'>
       <div className="wrapper about__container">
         <div className="about__img-side">
           <img
